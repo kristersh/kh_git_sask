@@ -2,23 +2,24 @@
 
 using namespace std;
 
-int SSK(int x, int y);
+int SSK(int x, int y, int z);
 
  int main()
 {
  int a, b, c;
- cout << "ievadiet divus ciparus" << endl;
+ cout << "ievadiet tris ciparus" << endl;
  cin >> a;
  cin >> b;
+ cin >> c;
 
- cout << "cipara" << a << "un cipara" << b << "summa ir="  << SSK(a, b) << endl;
+ cout << " cipara " << a << " , " << b << " un cipara "  << c << "summa ir = " << SSK(a, b, c) << endl;
     return 0;
 }
 
-int SSK(int d, int e)
+int SSK(int d, int e, int f)
 {
-    int f;
-    f=d+e;
+    int g;
+    g=d+e+f;
 
- return f;
+ return g;
 }
